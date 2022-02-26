@@ -1,3 +1,4 @@
+// import * as THREE from '../../node_modules/three/build/three'
 import * as THREE from 'three'
 
 const scene = new THREE.Scene()
@@ -16,7 +17,7 @@ document.body.appendChild(renderer.domElement)
 
 const geometry = new THREE.BoxGeometry()
 const material = new THREE.MeshBasicMaterial({
-    color: 0x00ff00,
+    color: 0xffffff,
     wireframe: true,
 })
 
